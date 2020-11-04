@@ -10,7 +10,6 @@ import androidx.fragment.app.FragmentTransaction;
 public class AuthActivity extends AppCompatActivity {
 
     Auth1Fragment Auth1Frg = new Auth1Fragment();
-    Auth2Fragment Auth2Frg = new Auth2Fragment();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
