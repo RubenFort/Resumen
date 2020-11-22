@@ -13,6 +13,8 @@ public class MainActivity extends AppCompatActivity {
 
     MainActivity2 mainAct2_btn = new MainActivity2();
     AuthActivity authActo_btn = new AuthActivity();
+    AdapterActivity adaptAct_btn = new AdapterActivity();
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
         Button pasarPantalla_btn =  findViewById(R.id.act_main_btn);
         Button pasarAuth_btn = findViewById(R.id.act_main_authact_btn);
+        Button pasarAdapt_btn = findViewById(R.id.act_main_lista_btn);
 
         pasarPantalla_btn.setOnClickListener(new OnClickListener() {
             @Override
@@ -36,6 +39,13 @@ public class MainActivity extends AppCompatActivity {
                 pasarPantala(authActo_btn);
             }
 
+        });
+
+        pasarAdapt_btn.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                pasarPantala(adaptAct_btn);
+            }
         });
     }
 

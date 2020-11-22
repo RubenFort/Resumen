@@ -15,4 +15,5 @@
         android:layout_gravity="center_horizontal"
         android:padding="50dp"
         android:text="AuthActivity1" />
+
 </FrameLayout>

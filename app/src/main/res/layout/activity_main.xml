@@ -29,10 +29,10 @@
             android:id="@+id/act_main_txt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="25dp"
+            android:layout_margin="15dp"
             android:gravity="center"
             android:text="@string/txtMain"
-            android:textSize="36sp" />
+            android:textSize="14sp" />
 
         <Button
             android:id="@+id/act_main_authact_btn"
@@ -41,5 +41,13 @@
             android:layout_gravity="center"
             android:layout_weight="35"
             android:text="Ir a Auth Activity" />
+
+        <Button
+            android:id="@+id/act_main_lista_btn"
+            android:layout_width="302dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="25"
+            android:text="Ir a la lista" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
